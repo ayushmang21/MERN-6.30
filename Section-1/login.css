@@ -1,0 +1,43 @@
+.card{
+    background-color: aquamarine;
+    border-radius: 20px;
+    width: 30%;
+    padding: 30px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+body{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.form-title{
+    text-align: center;
+    font-size: 40px;
+}
+.text-input{
+    padding: 15px;
+    font-size: 15px;
+    border-radius: 15px;
+    width: 80%;
+    border: 1px solid #787878;
+}
+.btn{
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 50px;
+    width: 40%;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #00bfff;
+}
+.btn:active{
+    background-color: #0080ff;
+}
